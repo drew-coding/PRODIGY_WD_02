@@ -1,0 +1,27 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.stopwatch {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+#lap-times {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#lap-times li {
+	margin-bottom: 10px;
+}
